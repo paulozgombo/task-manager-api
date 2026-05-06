@@ -49,6 +49,5 @@ public class TaskEntity {
     
     @CreatedDate
     @Column(nullable = false, updatable = false)
-    private LocalDateTime creatAt;
-    
+    private LocalDateTime creatAt;  
 }
